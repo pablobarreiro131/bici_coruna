@@ -6,7 +6,6 @@ import 'package:bici_coruna/repositories/station_repository.dart';
 import 'package:bici_coruna/services/api_service.dart';
 import 'package:bici_coruna/viewmodels/station_viewmodel.dart';
 
-// Fake ApiService para tests
 class FakeApiService extends ApiService {
   List<StationInfo>? infoToReturn;
   List<StationStatus>? statusToReturn;
